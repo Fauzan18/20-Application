@@ -14,6 +14,11 @@
 		AF43064D1F6A2EF200C3C457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF43064B1F6A2EF200C3C457 /* LaunchScreen.storyboard */; };
 		AF4306581F6A2EF300C3C457 /* Quiz_14_SeptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4306571F6A2EF300C3C457 /* Quiz_14_SeptTests.swift */; };
 		AF4306631F6A2EF300C3C457 /* Quiz_14_SeptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4306621F6A2EF300C3C457 /* Quiz_14_SeptUITests.swift */; };
+		AF4306711F6A307800C3C457 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4306701F6A307800C3C457 /* AgeViewController.swift */; };
+		AF9893E61F6A378600DC5F71 /* KasirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9893E51F6A378600DC5F71 /* KasirViewController.swift */; };
+		AFC6D1771F6A619900D965C4 /* DivideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6D1761F6A619900D965C4 /* DivideViewController.swift */; };
+		AFC6D1791F6A651800D965C4 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6D1781F6A651800D965C4 /* NumberViewController.swift */; };
+		AFC6D17B1F6A66AD00D965C4 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6D17A1F6A66AD00D965C4 /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		AF43065E1F6A2EF300C3C457 /* Quiz 14 SeptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz 14 SeptUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4306621F6A2EF300C3C457 /* Quiz_14_SeptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_14_SeptUITests.swift; sourceTree = "<group>"; };
 		AF4306641F6A2EF300C3C457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4306701F6A307800C3C457 /* AgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		AF9893E51F6A378600DC5F71 /* KasirViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KasirViewController.swift; sourceTree = "<group>"; };
+		AFC6D1761F6A619900D965C4 /* DivideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivideViewController.swift; sourceTree = "<group>"; };
+		AFC6D1781F6A651800D965C4 /* NumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		AFC6D17A1F6A66AD00D965C4 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				AF4306491F6A2EF200C3C457 /* Assets.xcassets */,
 				AF43064B1F6A2EF200C3C457 /* LaunchScreen.storyboard */,
 				AF43064E1F6A2EF200C3C457 /* Info.plist */,
+				AF4306701F6A307800C3C457 /* AgeViewController.swift */,
+				AF9893E51F6A378600DC5F71 /* KasirViewController.swift */,
+				AFC6D1761F6A619900D965C4 /* DivideViewController.swift */,
+				AFC6D1781F6A651800D965C4 /* NumberViewController.swift */,
+				AFC6D17A1F6A66AD00D965C4 /* ScoreViewController.swift */,
 			);
 			path = "Quiz 14 Sept";
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC6D17B1F6A66AD00D965C4 /* ScoreViewController.swift in Sources */,
+				AFC6D1771F6A619900D965C4 /* DivideViewController.swift in Sources */,
 				AF4306451F6A2EF200C3C457 /* ViewController.swift in Sources */,
+				AF9893E61F6A378600DC5F71 /* KasirViewController.swift in Sources */,
+				AFC6D1791F6A651800D965C4 /* NumberViewController.swift in Sources */,
 				AF4306431F6A2EF200C3C457 /* AppDelegate.swift in Sources */,
+				AF4306711F6A307800C3C457 /* AgeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +525,7 @@
 				AF4306691F6A2EF300C3C457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF43066A1F6A2EF300C3C457 /* Build configuration list for PBXNativeTarget "Quiz 14 SeptTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				AF43066C1F6A2EF300C3C457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF43066D1F6A2EF300C3C457 /* Build configuration list for PBXNativeTarget "Quiz 14 SeptUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				AF43066F1F6A2EF300C3C457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
